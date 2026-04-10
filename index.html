@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Simple Localized Counterfactuals for Visual Explanation</title>
+
+  <!-- https://ogimage.click/ -->
+  <meta name="og:title" content="Simple Localized Counterfactuals" />
+  <meta name="og:description" content="Simple Localized Counterfactuals for Visual Explanation" />
+  <meta name="og:url" content="https://imageomics.github.io/simple-localized-counterfactuals/" />
+  <meta name="og:image" content="https://imageomics.github.io/simple-localized-counterfactuals/images/edit-pipeline.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://imageomics.github.io/simple-localized-counterfactuals/images/edit-pipeline.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Simple Localized Counterfactuals" />
+
+  <meta name="theme-color" content="#939936">
+
+  <link href="./css/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width: 800px)">
+  <link href="./css/main.css" rel="stylesheet" type="text/css" media="screen and (min-width: 800px)">
+  <link rel="icon" href="images/icons/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div style="text-align: center">
+      <details>
+        <summary>More Research</summary>
+        <div class="options">
+          <p><a href="https://github.com/Imageomics/INTR">INTR</a></p>
+        </div>
+      </details>
+    </div>
+    <h1>Simple Localized Counterfactuals for Visual Explanation</h1>
+    <p class="centered">
+      <sup>1</sup><a href="https://davidcarlyn.wordpress.com/">David Carlyn</a>,
+      <sup>1</sup><a href="https://vimar-gu.github.io/">Jianyang Gu</a>,
+      <sup>2</sup><a href="https://sites.google.com/view/wei-lun-harry-chao">Wei-Lun (Harry) Chao</a>
+    </p>
+    <p class="centered">
+      <sup>1</sup>The Ohio State University,
+      <sup>2</sup>Boston University
+    </p>
+    <p class="text-sm centered">
+      <a href="mailto:carlyn.1@osu.edu">carlyn.1@osu.edu</a>
+    </p>
+
+    <p class="centered">
+      <a class="pill-button wide" href="https://huggingface.co/datasets/imageomics/TreeOfLife-200M">
+        <img src="images/icons/github.svg" /> Code (Coming Soon)
+      </a>
+      <a class="pill-button wide" href="https://huggingface.co/spaces/imageomics/bioclip-2-demo">
+        <img src="images/icons/huggingface.svg" /> Demo (Coming Soon)
+      </a>
+      <a class="pill-button wide" href="https://arxiv.org/abs/2505.23883">
+        <img src="images/icons/arxiv.svg" /> Paper (Coming Soon)
+      </a>
+    </p>
+    <figure>
+      <a href="images/edit-pipeline.png">
+        <img srcset="" src="images/edit-pipeline.png" alt="" loading="lazy">
+      </a>
+    </figure>
+
+    <h2 class="banded">Simple Localized Counterfactuals for Visual Explanation</h2>
+
+    <p>
+      Coming soon!
+    </p>
+
+
+    <h2 class="banded">Acknowledgements</h2>
+    <p>
+      Our research is supported by <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118240">NSF OAC 2118240</a>. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+    </p>
+
+  </main>
+  <script>
+    const details = document.querySelector("details");
+    document.addEventListener("click", function (e) {
+      if (!details.contains(e.target)) {
+        details.removeAttribute("open");
+      }
+    });
+  </script>
+</body>
+
+</html>
