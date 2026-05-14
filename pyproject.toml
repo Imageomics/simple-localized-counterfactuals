@@ -1,13 +1,50 @@
 [project]
-name = "simple-localized-counterfactuals"
+name = "slc"
 version = "0.1.0"
-description = "Add your description here"
+description = "Simple localized counterfactuals (slc) is an lightweight framework for creating visual counterfactuals."
 readme = "README.md"
 authors = [
     { name = "David Carlyn", email = "davidecarlyn@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "accelerate",
+    "captum",
+    "datasets",
+    "diffusers",
+    "filelock",
+    "gpustat",
+    "grad-cam",
+    "hydra-core",
+    "ipykernel",
+    "lpips",
+    "matplotlib",
+    "opencv-python",
+    "pandas",
+    "pip",
+    "pytorch-fid",
+    "quantus[torch]",
+    "rich",
+    "ruff",
+    "saev",
+    "saliency",
+    "scipy",
+    "timm",
+    "torch==2.9.0",
+    "torchaudio",
+    "torchvision",
+    "tqdm",
+    "trackio",
+    "transformers",
+]
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+saev = { git = "https://github.com/OSU-NLP-Group/saev.git" }
 
 [build-system]
 requires = ["uv_build>=0.8.11,<0.9.0"]
