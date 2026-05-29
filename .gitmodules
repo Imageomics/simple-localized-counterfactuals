@@ -1,0 +1,6 @@
+[submodule "src/slc/external/AGI"]
+	path = src/slc/external/AGI
+	url = git@github.com:DavidCarlyn/AGI.git
+[submodule "src/slc/external/rcsb"]
+	path = src/slc/external/rcsb
+	url = git@github.com:DavidCarlyn/rcsb.git
